@@ -3,7 +3,7 @@
 ## AlmightyShapeImageView支持显示任意图形，只有你想不到，没有它做不到；
 ## 本库中的ImageView没有操作Bitmap，可以放心使用！！！
 
-[![](https://jitpack.io/v/FlyJingFish/ShapeImageView.svg)](https://jitpack.io/#FlyJingFish/ShapeImageView)
+[![](https://jitpack.io/v/hirezy/ShapeImageViewLib.svg)](https://jitpack.io/#hirezy/ShapeImageViewLib)
 
 ShapeImageView|AlmightyShapeImageView
  ----- | ----- 
@@ -34,11 +34,11 @@ ShapeImageView|AlmightyShapeImageView
         }
     }
 ```
-## 第二步，需要引用的build.gradle （最新版本[![](https://jitpack.io/v/FlyJingFish/ShapeImageView.svg)](https://jitpack.io/#FlyJingFish/ShapeImageView)）
+## 第二步，需要引用的build.gradle (最新版本[![](https://jitpack.io/v/hirezy/ShapeImageViewLib.svg)](https://jitpack.io/#hirezy/ShapeImageViewLib))
 
 ```gradle
     dependencies {
-        implementation 'com.github.hirezy:ShapeImageViewLib:1.4.4'
+        implementation 'com.github.hirezy:ShapeImageViewLib:1.0.0'
     }
 ```
 ## 第三步，使用说明
@@ -171,7 +171,7 @@ ShapeImageView|AlmightyShapeImageView
 
 # 最后推荐我写的另一个库，轻松实现在应用内点击小图查看大图的动画放大效果
 
-- [OpenImage](https://github.com/FlyJingFish/OpenImage) （已内置当前库）
+- [OpenImage](https://github.com/hirezy/OpenImageLib) （已内置当前库）
 
 - [主页查看更多开源库](https://github.com/hirezy)
 
