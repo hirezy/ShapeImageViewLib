@@ -7,7 +7,7 @@
 
 ShapeImageView|AlmightyShapeImageView
  ----- | ----- 
-<img src="https://github.com/FlyJingFish/ShapeImageView/blob/master/screenshot/Screenshot_20221011_144810.jpg" width="400px" height="800px" alt="show" />|<img src="https://github.com/FlyJingFish/ShapeImageView/blob/master/screenshot/Screenshot_20221031_123252.jpg" width="400px" height="800px" alt="show" />
+<img src="https://github.com/hirezy/ShapeImageViewLib/blob/master/screenshot/Screenshot_20221011_144810.jpg" width="400px" height="800px" alt="show" />|<img src="https://github.com/hirezy/ShapeImageViewLib/blob/master/screenshot/Screenshot_20221031_123252.jpg" width="400px" height="800px" alt="show" />
 
 
 
@@ -38,7 +38,7 @@ ShapeImageView|AlmightyShapeImageView
 
 ```gradle
     dependencies {
-        implementation 'com.github.FlyJingFish:ShapeImageView:1.4.4'
+        implementation 'com.github.hirezy:ShapeImageViewLib:1.4.4'
     }
 ```
 ## 第三步，使用说明
@@ -47,7 +47,7 @@ ShapeImageView|AlmightyShapeImageView
 
 ### ShapeImageView 示例
 ```xml
-<com.flyjingfish.shapeimageviewlib.ShapeImageView
+<com.hirezy.shapeimageviewlib.ShapeImageView
     android:id="@+id/iv_centerCrop"
     android:layout_width="110dp"
     android:layout_height="110dp"
@@ -123,7 +123,7 @@ ShapeImageView|AlmightyShapeImageView
 
 # 二、AlmightyShapeImageView 使用说明
 
-### AlmightyShapeImageView 示例（库内内置 ❤️ [ic_vector_heart](https://github.com/FlyJingFish/ShapeImageView/tree/master/library/src/main/res/drawable) 和 ⭐️ [ic_vector_star](https://github.com/FlyJingFish/ShapeImageView/tree/master/library/src/main/res/drawable)）
+### AlmightyShapeImageView 示例（库内内置 ❤️ [ic_vector_heart](https://github.com/hirezy/ShapeImageViewLib/blob/master/library/src/main/res/drawable) 和 ⭐️ [ic_vector_star](https://github.com/hirezy/ShapeImageViewLib/blob/master/library/src/main/res/drawable)）
 
 **使用的关键在于设置一个图形资源图（即almighty_shape_resource），想做显示什么形状的图片只要设置一个资源图，就都可以实现**
 
@@ -164,10 +164,6 @@ ShapeImageView|AlmightyShapeImageView
 
 **almighty_shape_resource** 就是让UI提前将图形导出的图片资源，可以是shape，可以是vector，可以是png图片，但是**强烈建议使用shape或vector矢量图形效果更佳**
 
-如果使用是png或svg资源可以将其转化为vector，详情可以看我的博客：
-
-- [博客使用说明](https://blog.csdn.net/u013077428/article/details/127613904)
-
 ## 常见问题
 1、有的图形设置rotation、rotationX、rotationY等变化属性之后图片显示不全
 
@@ -177,6 +173,8 @@ ShapeImageView|AlmightyShapeImageView
 
 - [OpenImage](https://github.com/FlyJingFish/OpenImage) （已内置当前库）
 
-- [主页查看更多开源库](https://github.com/FlyJingFish)
+- [主页查看更多开源库](https://github.com/hirezy)
+
+- [我的博客主页](https://blog.csdn.net/ljx1400052550)
 
 
